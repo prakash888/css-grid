@@ -1,0 +1,13 @@
+
+.container{
+    border: 2px red solid;
+    display: grid;
+    width: 400px;
+    height: 400px;
+}
+
+.box{
+    border: 2px blue;
+    background-color: aliceblue;
+    margin: 2px 0 10px;
+}
