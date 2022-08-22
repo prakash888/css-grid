@@ -32,3 +32,18 @@ const evenNumbers = [1,2,3,4,5,6,7, "Hello",[1,2,3]];
 
  const secondResult = add(2323, 2324)
  console.log(secondResult);
+ 
+
+let number = 10; //with let you can actually override the datatype value as you can see here that 10 has been overrridden by 50
+number = 50;
+console.log(number);
+
+/*if(number === 50){
+   console.log("VAlue if Fifty")
+}
+else{
+   console.log("value isnot ur fifty")
+}*/
+
+const isValue= number === 50? true: false;  //Ternary Operator ( condition ? '': '';-syntax)
+console.log(isValue);
